@@ -5,7 +5,8 @@ import java.util.List;
 
 public interface SocketProcess {
     public boolean bind();
-    public List<Object> listen();
-    public boolean response(List<Object> data);
+    public void listen(Session sesion);
+    public void startBroadcast();
+    public void response(String message);
     public boolean close();
 }

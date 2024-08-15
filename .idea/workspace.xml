@@ -4,32 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d96ada0-2606-46c9-81aa-63fddc0712a0" name="Changes" comment="" />
+    <list default="true" id="7d96ada0-2606-46c9-81aa-63fddc0712a0" name="Changes" comment="Inicializando Server Socket Multicast">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jaime/server/Comunicaciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jaime/server/SessionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaime/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jaime/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaime/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jaime/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaime/server/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jaime/server/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaime/server/SocketProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jaime/server/SocketProcess.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JaimeAndresQ&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JaimeAndresQ/MulticastSocketServer.git&quot;,
+    &quot;accountId&quot;: &quot;1e6a0a83-dbd4-4b1a-a524-ecea8d6efd78&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2kNjGmh4y4SDRWNJzB8JJxmq8Zl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jaime/OneDrive/Documentos/UPB - SEMESTRE VIII/Sistemas_Distribuidos/MulticastSocketServer&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,6 +71,40 @@
       <option name="presentableId" value="Default" />
       <updated>1723130836078</updated>
     </task>
+    <task id="LOCAL-00001" summary="Inicializando Server Socket Multicast">
+      <option name="closed" value="true" />
+      <created>1723137239811</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723137239811</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inicializando Server Socket Multicast" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicializando Server Socket Multicast" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.SocketException" package="java.net" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
